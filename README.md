@@ -57,4 +57,3 @@ Please check out my post [React 系列（二）：单元测试最佳实践](http
   - I think the `dto/` as a top level folder is nested too deep
 - [ ] jest + RTL examples
 - [ ] maybe prettify the UI a little bit
-- [ ] eslint file auto import and fix
