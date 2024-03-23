@@ -28,6 +28,7 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-empty-function": "warn",
+    "class-methods-use-this": "warn",
     "no-shadow": "warn"
   }
 }
