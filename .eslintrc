@@ -28,7 +28,11 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-empty-function": "warn",
+    // complaining in src/hooks/api/query-client.ts#1, should be library type definition export error
+    "@typescript-eslint/ban-ts-comment": "warn",
     "class-methods-use-this": "warn",
+    // complaining in src/index.tsx#18
+    "consistent-return": "warn",
     "no-shadow": "warn"
   }
 }
