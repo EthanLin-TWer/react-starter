@@ -1,7 +1,8 @@
-import { useHomeReducer } from '../../hooks/redux/useHomeReducer'
-import { onMount } from '../../hooks/onMount'
-import { useSearchHotels } from '../../hooks/api/useHotels'
 import { Typography } from '@mui/material'
+
+import { useSearchHotels } from '../../hooks/api/useHotels'
+import { onMount } from '../../hooks/onMount'
+import { useHomeReducer } from '../../hooks/redux/useHomeReducer'
 
 export const HomeComponent = () => {
   const { setLoaded } = useHomeReducer()

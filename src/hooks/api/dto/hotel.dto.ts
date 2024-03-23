@@ -14,6 +14,4 @@ export interface HotelDTO {
 }
 
 // for entity DTO, spread the data (to support direct access) and add behaviors here
-export const toHotelDto = (hotel: HotelResponse): HotelDTO => {
-  return { ...hotel }
-}
+export const toHotelDto = (hotel: HotelResponse): HotelDTO => ({ ...hotel })

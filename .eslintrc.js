@@ -29,15 +29,19 @@ module.exports = {
     'react/jsx-curly-brace-presence': ['error', 'never'],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-empty-function': 'warn',
+    'class-methods-use-this': 'warn',
+    'prefer-destructuring': 'warn',
+    'no-shadow': 'warn',
+
     // complaining in src/hooks/api/query-client.ts#1, should be library type definition export error
     '@typescript-eslint/ban-ts-comment': 'warn',
-    'class-methods-use-this': 'warn',
+
     // complaining in src/index.tsx#18
     'consistent-return': 'warn',
-    'no-shadow': 'warn',
 
     // set of no-unused-vars related rules: unused-imports plugin manages the no-unused-vars rule itself
     'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': 'warn',
 

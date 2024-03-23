@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { CurriedGetDefaultMiddleware } from '@reduxjs/toolkit/dist/getDefaultMiddleware'
 
-import homeReducer, { HomeState } from './home-reducers'
-import contactReducer, { ContactState } from './contact-reducers'
 import { Envs } from '../constants/envs'
+
+import contactReducer, { ContactState } from './contact-reducers'
+import homeReducer, { HomeState } from './home-reducers'
 
 export interface StoreState {
   home: HomeState

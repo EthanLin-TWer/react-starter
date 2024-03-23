@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import { styled, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
+import { styled, Typography } from '@mui/material'
 
 interface NavItemProps {
   to: string

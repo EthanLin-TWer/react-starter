@@ -1,6 +1,8 @@
 import { delay, http, HttpResponse } from 'msw'
-import { hotelMocks } from './responses/hotel.mock'
+
 import { HotelResponse } from '../api-client/hotels/response.types'
+
+import { hotelMocks } from './responses/hotel.mock'
 
 export const handlers = [
   http.get('/hotels', async ({ request }) => {

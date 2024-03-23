@@ -4,10 +4,9 @@ import { Provider as ReduxProvider } from 'react-redux'
 import { QueryClientProvider } from '@tanstack/react-query'
 
 import { Envs } from './constants/envs'
+import { queryClient } from './hooks/api/query-client'
 import { AppRoutes } from './app-routes'
 import { configureAppStore } from './redux'
-
-import { queryClient } from './hooks/api/query-client'
 
 const enablingMocking = async (): Promise<unknown> => {
   if (process.env.NODE_ENV !== Envs.DEVELOPMENT) {
@@ -28,6 +27,6 @@ enablingMocking().then(() => {
           <AppRoutes />
         </QueryClientProvider>
       </ReduxProvider>
-    </React.StrictMode>
+    </React.StrictMode>,
   )
 })

@@ -10,9 +10,7 @@ export default class ApiClient {
   })
 
   get<T>(url: string, params: object = {}): Promise<T> {
-    return this.#client.get(url, { params }).then((response) => {
-      return response.data
-    })
+    return this.#client.get(url, { params }).then((response) => response.data)
   }
 
   post<T>(url: string, requestBody: object = {}): Promise<T> {

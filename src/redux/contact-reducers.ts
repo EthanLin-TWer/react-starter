@@ -10,7 +10,9 @@ const { actions, reducer } = createSlice({
     loaded: false,
   },
   reducers: {
-    loaded(state: ContactState, action) {},
+    loaded(state: ContactState, action) {
+      state.loaded = action.payload
+    },
   },
 })
 export const { loaded } = actions

@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
-import { AnyAction, Dispatch } from 'redux'
 import { useDispatch, useSelector } from 'react-redux'
+import { AnyAction, Dispatch } from 'redux'
 
 import { StoreState } from '../../redux'
 import { HomeState, loaded } from '../../redux/home-reducers'

@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import { Header } from './routes/Header'
-import { Home } from './routes/Home'
 import { About } from './routes/About'
 import { Contact } from './routes/Contact'
+import { Header } from './routes/Header'
+import { Home } from './routes/Home'
 
 export const AppRoutes = () => (
   <BrowserRouter>
