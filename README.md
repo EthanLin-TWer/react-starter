@@ -50,3 +50,11 @@ pnpm build
 ## Testing Strategy
 
 Please check out my post [React 系列（二）：单元测试最佳实践](https://ethan.thoughtworkers.me/#/post/2023-12-10-react-unit-testing-best-practices) for a recommended best practices of how to deploy the testing strategy for this architecture.
+
+## Todo
+
+- [ ] architecture / folder structure adjust
+  - I think the `dto/` as a top level folder is nested too deep
+- [ ] jest + RTL examples
+- [ ] maybe prettify the UI a little bit
+- [ ] eslint file auto import and fix
